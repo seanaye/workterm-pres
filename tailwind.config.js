@@ -3,10 +3,16 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
-      wandrDark: "#131313",
-      primary: '#df2935',
-      secondary: '#246eb9',
-      accent: '#ff8811'
+      fontFamily: {
+        sans: ['"poppins"', 'sans-seriff'],
+        nexa: ['"nexa"', 'sans-seriff']
+      },
+      colors: {
+        wandrdark: "#131313",
+        primary: '#df2935',
+        secondary: '#246eb9',
+        accent: '#ff8811'
+      }
     },
   },
   variants: {
