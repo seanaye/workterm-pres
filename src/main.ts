@@ -13,7 +13,9 @@ const routes: RouteRecordRaw[] = [
       { path: '0', component: defineAsyncComponent(() => import('/src/slides/Slide0.vue')) },
       { path: '1', component: defineAsyncComponent(() => import('/src/slides/Slide1.vue'))},
       { path: '2', component: defineAsyncComponent(() => import('/src/slides/Slide2.vue'))},
-      { path: '3', component: defineAsyncComponent(() => import('/src/slides/Slide3.vue'))}
+      { path: '3', component: defineAsyncComponent(() => import('/src/slides/Slide3.vue'))},
+      { path: '4', component: defineAsyncComponent(() => import('/src/slides/Slide4.vue'))},
+
     ]
   }
 ]
